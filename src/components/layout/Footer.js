@@ -11,7 +11,7 @@ function Footer() {
 						 Ernest Korgah
 					<span/>,
 					 Using <i className="fab fa-react" /> React JS &amp; Redux JS integrated with external movies data API
-					 <a href="http://www.ombdapi.com/" target="_blank">
+					 <a href="http://www.ombdapi.com/" target="_blank" rel="noopener noreferrer">
 					 	OMDB
 					 	</a>
 					 </span>
