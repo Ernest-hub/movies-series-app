@@ -10,8 +10,8 @@ export class MoviesContainer extends React.Component {
 		let content = '';
 
 		content = 
-			movies.Response === 'true' 
-				? movies.map((movie, index) => (
+			movies.Response === 'True' 
+				? movies.Search.map((movie, index) => (
 					<MovieCard key={index} movie={movie} />)) : null;
 		return <div className="row">{content}</div>
 	}
